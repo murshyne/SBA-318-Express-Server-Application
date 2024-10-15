@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Recipe</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Edit Recipe</h1>
+    <form action="/recipes/edit/1" method="POST"> <!-- Replace 1 with actual recipe ID -->
+        <input type="text" name="title" value="Recipe Title" required>
+        <textarea name="ingredients" required>Ingredients go here...</textarea>
+        <textarea name="instructions" required>Instructions go here...</textarea>
+        <input type="text" name="cookingTime" value="30 minutes" required>
+        <button type="submit">Update Recipe</button>
+    </form>
+    <a href="/recipes">Back to Recipes</a>
+</body>
+</html>

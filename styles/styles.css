@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  margin-left: 10px;
+}

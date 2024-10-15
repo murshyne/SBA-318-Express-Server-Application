@@ -1,0 +1,1 @@
+console.log("Views directory:", new URL("./views", import.meta.url).pathname);
